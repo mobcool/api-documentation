@@ -145,24 +145,23 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### Response
+## Response
 
 | Section | Parameters | Type | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | id | uint64 | Identifies of this offer. |
+|  | id | integer | Identifies of this offer. |
 |  | name | string | Name of this offer. |
 |  | tracking\_url | string | Offer tracking url, you can go to your publisher console change query macros. |
 |  | payout\_model | string | Payout model of this offer, Enum\(CPI, CPA, CPL, CPC, CPM, CPS\). |
 |  | payout\_type | string | Payout type of this offer, Enum\(Fixed, Dynamic\). |
 |  | payout | string | Payout of this offer, Only display on payout\_type equal to Fixed. |
 |  | preview\_url | string | Preview url of this offer. |
-|  | is\_adult | string | Preview url of this offer. |
-|  | allow_incentive | string | Preview url of this offer. |
-|  | rating | string | Preview url of this offer. |
+|  | is\_adult | boolean | Preview url of this offer. |
+|  | allow\_incentive | boolean | Preview url of this offer. |
+|  | rating | float | Preview url of this offer. |
 |  | description | string | Preview url of this offer. |
-| target | country | string | Preview url of this offer. |
-| target | carrier | string | Preview url of this offer. |
-| target | device | string | Preview url of this offer. |
-| target | connection_type | string | Preview url of this offer. |
-
+| target | country | array | Preview url of this offer. |
+| target | carrier | array | Preview url of this offer. |
+| target | device | array | Preview url of this offer. |
+| target | connection\_type | string | Preview url of this offer. |
 
