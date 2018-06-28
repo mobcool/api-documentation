@@ -161,7 +161,7 @@ Could not find a cake matching this query.
 |  | rating | float | Preview url of this offer. |
 |  | description | string | Preview url of this offer. |
 | target | country | array | Preview url of this offer. |
-| target | carrier | array | Preview url of this offer. |
-| target | device | array | Preview url of this offer. |
-| target | connection\_type | string | Preview url of this offer. |
+|  | carrier | array | Preview url of this offer. |
+|  | device | array | Preview url of this offer. |
+|  | connection\_type | string | Preview url of this offer. |
 
