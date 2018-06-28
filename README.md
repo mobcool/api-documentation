@@ -156,12 +156,12 @@ Could not find a cake matching this query.
 |  | payout\_type | string | Payout type of this offer, Enum\(Fixed, Dynamic\). |
 |  | payout | string | Payout of this offer, Only display on payout\_type equal to Fixed. |
 |  | preview\_url | string | Preview url of this offer. |
-|  | is\_adult | boolean | Preview url of this offer. |
-|  | allow\_incentive | boolean | Preview url of this offer. |
-|  | rating | float | Preview url of this offer. |
-|  | description | string | Preview url of this offer. |
-| target | country | array | Preview url of this offer. |
-|  | carrier | array | Preview url of this offer. |
-|  | device | array | Preview url of this offer. |
-|  | connection\_type | string | Preview url of this offer. |
+|  | is\_adult | boolean | TRUE if this offer contains adult. |
+|  | allow\_incentive | boolean | TRUE if this offer is allowed in incentive mode. |
+|  | rating | float | Rating of the offer, Range: 0-5 |
+|  | description | string | Description of offer. |
+| target | country | array | Contains allow and deny array: country ISO code. |
+| target | carrier | array | Contains allow and deny array: country, carrier, carrier_alias  |
+| target | device | array | Contains allow and deny array: devices. |
+| target | connection\_type | string | Enum\(All, Wifi, Cellular\). |
 
