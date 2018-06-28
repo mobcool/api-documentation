@@ -156,6 +156,13 @@ Could not find a cake matching this query.
 |  | payout\_type | string | Payout type of this offer, Enum\(Fixed, Dynamic\). |
 |  | payout | string | Payout of this offer, Only display on payout\_type equal to Fixed. |
 |  | preview\_url | string | Preview url of this offer. |
-
+|  | is\_adult | string | Preview url of this offer. |
+|  | allow_incentive | string | Preview url of this offer. |
+|  | rating | string | Preview url of this offer. |
+|  | description | string | Preview url of this offer. |
+| target | country | string | Preview url of this offer. |
+| target | carrier | string | Preview url of this offer. |
+| target | device | string | Preview url of this offer. |
+| target | connection_type | string | Preview url of this offer. |
 
 
