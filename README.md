@@ -2,11 +2,11 @@
 
 {% api-method method="get" host="http://{api\_domain}" path="/api/gateway/offers" %}
 {% api-method-summary %}
-Get Cakes
+Get Offers
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows you to get all offers.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -129,18 +129,6 @@ Cake successfully retrieved.
 }
 ```
 {% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "message": "Ain't no cake like that."
-}
-```
-{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
@@ -161,7 +149,7 @@ Could not find a cake matching this query.
 |  | rating | float | Rating of the offer, Range: 0-5 |
 |  | description | string | Description of offer. |
 | target | country | array | Contains allow and deny array: country ISO code. |
-| target | carrier | array | Contains allow and deny array: country, carrier, carrier_alias  |
+| target | carrier | array | Contains allow and deny array: country, carrier, carrier\_alias |
 | target | device | array | Contains allow and deny array: devices. |
 | target | connection\_type | string | Enum\(All, Wifi, Cellular\). |
 
