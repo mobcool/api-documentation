@@ -16,6 +16,10 @@ This endpoint allows you to get all offers.
 Api Token
 {% endapi-method-parameter %}
 
+{% api-method-parameter name="payout_models" type="string" required=false %}
+Filter offers payout_model. eg: CPI,CPA
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="page" type="number" required=false %}
 Page
 {% endapi-method-parameter %}
