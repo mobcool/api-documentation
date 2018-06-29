@@ -160,7 +160,7 @@ Cake successfully retrieved.
 |  | allow | StringArray | Allow countries ISO code.If allow is equal to null, It does allow any country. |
 |  | deny | StringArray | Deny countries ISO code. If deny is equal to null, it does not deny any country. Deny countries only display on allow equal to null. |
 
-#### Response\_target\_carrier
+#### Response\_Target\_Carrier
 
 | Section | Parameters | Type | Description |
 | --- | --- | --- | --- |
