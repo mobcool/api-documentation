@@ -163,8 +163,11 @@ Cake successfully retrieved.
 #### Response\_Target\_Carrier
 
 | Section | Parameters | Type | Description |
-| --- | --- | --- | --- |
-| allow | country | String | Carrier's country. |
-| allow | carrier | String | Carrier's name. |
-| allow | carrier\_alias | StringArray | Carrier's alias. |
+| --- | --- | --- | --- | --- | --- | --- |
+| allow | country | String | Allow carrier's country ISO code. |
+| allow | carrier | String | Allow carrier's name. |
+| allow | carrier\_alias | StringArray | Allow carrier's alias. |
+| deny | country | String | Deny carrier's country ISO code. |
+| deny | carrier | String | Deny carrier's name. |
+| deny | carrier\_alias | StringArray | Deny carrier's alias. |
 
