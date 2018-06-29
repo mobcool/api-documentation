@@ -112,6 +112,51 @@ Offers successfully retrieved.
         },
         "connection_type": "All"
       }
+    },
+    {
+      "id": 5497,
+      "name": "Cooking Craze - A Fast & Fun Restaurant Chef Game",
+      "tracking_url": "http://c0c.xyz/rest/ck/o/1/5497?click_id={click_id}&sub_id={publisher_id}.{traffic_id}&sc={source}",
+      "payout_model": "CPI",
+      "payout_type": "Fixed",
+      "payout": "0.4100",
+      "preview_url": "",
+      "conversion_flow": "",
+      "is_adult": false,
+      "allow_incentive": false,
+      "rating": 0,
+      "description": "Dash around the kitchen & serve food fast in this addictively fun cooking game!",
+      "target": {
+        "country": {
+          "allow": [
+            "US"
+          ],
+          "deny": null
+        },
+        "carrier": {
+          "allow": null,
+          "deny": null
+        },
+        "device": {
+          "allow": [
+            "Android Phone",
+            "Android Tablet"
+          ],
+          "deny": null
+        },
+        "connection_type": "All"
+      },
+      "app": {
+        "platform": "Android",
+        "package_name": "com.bigfishgames.cookingcrazegooglef2p",
+        "title": "Cooking Craze - A Fast & Fun Restaurant Chef Game",
+        "icon_url": "https://lh3.googleusercontent.com/frpsUnXoy6n3VDJzTmDNacbEhFhgnPwrKT3z67JJZsS3F-5yFqpbBQ3WCeuNHciCyA=w150",
+        "store_url": "",
+        "rating": 4.5,
+        "category": "Arcade",
+        "min_os_version": "4.1",
+        "size": "90521"
+      }
     }
   ],
   "meta": {
