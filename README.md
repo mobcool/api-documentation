@@ -171,3 +171,12 @@ Cake successfully retrieved.
 | deny | carrier | String | Deny carrier's name. |
 | deny | carrier\_alias | StringArray | Deny carrier's alias. |
 
+#### Response\_Target\_Device
+
+| Section | Parameters | Type | Description |
+| --- | --- | --- |
+|  | allow | StringArray | Allow devices.Enum\(Android Phone, Android Tablet, iPhone, iPad, Mac, PC, BlackBerry Phone, Blackberry Tablet, Windows Phone, Symbian, Feature Phone, Other\) |
+|  | deny | StringArray | Deny devices.Enum\(Android Phone, Android Tablet, iPhone, iPad, Mac, PC, BlackBerry Phone, Blackberry Tablet, Windows Phone, Symbian, Feature Phone, Other\) |
+
+
+
