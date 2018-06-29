@@ -196,7 +196,16 @@ Offers successfully retrieved.
 | target | country | Object | Contains allow and deny array: countries ISO code. |
 | target | carrier | Object | Contains allow and deny array: country, carrier, carrier\_alias |
 | target | device | Object | Contains allow and deny array: devices. |
-| target | connection\_type | string | Enum\(All, Wifi, Cellular\). |
+| target | connection\_type | String | Enum\(All, Wifi, Cellular\). |
+| app | platform | String | Os platform. Enum\(Android, iOS\) of this offer's app. |
+| app | package\_name | String | Android package\_name or iOS bound\_id of this offer's app. |
+| app | title | String | Title of this offer's app. |
+| app | icon\_url | String | Icon url of this offer's app. |
+| app | store\_url | String | Store url of this offer's app. |
+| app | rating | String | Rating of this offer's app. |
+| app | category | String | Category of this offer's app. |
+| app | min\_os\_version | String | Min os version of this offer's app. |
+| app | size | String | Size of this offer's app. |
 
 #### Response\_Target\_Country
 
