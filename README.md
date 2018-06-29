@@ -137,19 +137,28 @@ Cake successfully retrieved.
 
 | Section | Parameters | Type | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | id | integer | Identifies of this offer. |
-|  | name | string | Name of this offer. |
-|  | tracking\_url | string | Offer tracking url, you can go to your publisher console change query macros. |
-|  | payout\_model | string | Payout model of this offer, Enum\(CPI, CPA, CPL, CPC, CPM, CPS\). |
-|  | payout\_type | string | Payout type of this offer, Enum\(Fixed, Dynamic\). |
-|  | payout | string | Payout of this offer, Only display on payout\_type equal to Fixed. |
-|  | preview\_url | string | Preview url of this offer. |
-|  | is\_adult | boolean | TRUE if this offer contains adult. |
-|  | allow\_incentive | boolean | TRUE if this offer is allowed in incentive mode. |
-|  | rating | float | Rating of the offer, Range: 0-5 |
-|  | description | string | Description of offer. |
-| target | country | array | Contains allow and deny array: country ISO code. |
-| target | carrier | array | Contains allow and deny array: country, carrier, carrier\_alias |
-| target | device | array | Contains allow and deny array: devices. |
+|  | id | Integer | Identifies of this offer. |
+|  | name | String | Name of this offer. |
+|  | tracking\_url | String | Offer tracking url, you can go to your publisher console change query macros. |
+|  | payout\_model | String | Payout model of this offer, Enum\(CPI, CPA, CPL, CPC, CPM, CPS\). |
+|  | payout\_type | String | Payout type of this offer, Enum\(Fixed, Dynamic\). |
+|  | payout | String | Payout of this offer, Only display on payout\_type equal to Fixed. |
+|  | preview\_url | String | Preview url of this offer. |
+|  | is\_adult | Boolean | TRUE if this offer contains adult. |
+|  | allow\_incentive | Boolean | TRUE if this offer is allowed in incentive mode. |
+|  | rating | Float | Rating of the offer, Range: 0-5 |
+|  | description | String | Description of offer. |
+| target | country | Object | Contains allow and deny array: countries ISO code. |
+| target | carrier | Object | Contains allow and deny array: country, carrier, carrier\_alias |
+| target | device | Object | Contains allow and deny array: devices. |
 | target | connection\_type | string | Enum\(All, Wifi, Cellular\). |
+
+#### Response\_Target\_Country
+
+| Section | Parameters | Type | Description |
+| --- | --- | --- |
+|  | allow | StringArray | Allow countries ISO code.If allow is equal to null, It does allow any country. |
+|  | deny | StringArray | Deny countries ISO code. If deny is equal to null, it does not deny any country. Deny countries only display on allow equal to null. |
+
+
 
