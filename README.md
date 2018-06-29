@@ -211,8 +211,8 @@ Offers successfully retrieved.
 
 | Section | Parameters | Type | Description |
 | --- | --- | --- |
-|  | allow | StringArray | Allow countries ISO code.If allow is equal to null, It does allow any country. |
-|  | deny | StringArray | Deny countries ISO code. If deny is equal to null, it does not deny any country. Deny countries only display on allow equal to null. |
+|  | allow | Array\(String\) | Allow countries ISO code.If allow is equal to null, It does allow any country. |
+|  | deny | Array\(String\) | Deny countries ISO code. If deny is equal to null, it does not deny any country. Deny countries only display on allow equal to null. |
 
 #### Response\_Target\_Carrier
 
@@ -220,17 +220,17 @@ Offers successfully retrieved.
 | --- | --- | --- | --- | --- | --- | --- |
 | allow | country | String | Allow carrier's country ISO code. |
 | allow | carrier | String | Allow carrier's name. |
-| allow | carrier\_alias | StringArray | Allow carrier's alias. |
+| allow | carrier\_alias | Array\(String\) | Allow carrier's alias. |
 | deny | country | String | Deny carrier's country ISO code. |
 | deny | carrier | String | Deny carrier's name. |
-| deny | carrier\_alias | StringArray | Deny carrier's alias. |
+| deny | carrier\_alias | Array\(String\) | Deny carrier's alias. |
 
 #### Response\_Target\_Device
 
 | Section | Parameters | Type | Description |
 | --- | --- | --- |
-|  | allow | StringArray | Allow devices.Enum\(Android Phone, Android Tablet, iPhone, iPad, Mac, PC, BlackBerry Phone, Blackberry Tablet, Windows Phone, Symbian, Feature Phone, Other\) |
-|  | deny | StringArray | Deny devices.Enum\(Android Phone, Android Tablet, iPhone, iPad, Mac, PC, BlackBerry Phone, Blackberry Tablet, Windows Phone, Symbian, Feature Phone, Other\) |
+|  | allow | Array\(String\) | Allow devices.Enum\(Android Phone, Android Tablet, iPhone, iPad, Mac, PC, BlackBerry Phone, Blackberry Tablet, Windows Phone, Symbian, Feature Phone, Other\) |
+|  | deny | Array\(String\) | Deny devices.Enum\(Android Phone, Android Tablet, iPhone, iPad, Mac, PC, BlackBerry Phone, Blackberry Tablet, Windows Phone, Symbian, Feature Phone, Other\) |
 
 
 
