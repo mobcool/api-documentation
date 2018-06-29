@@ -16,8 +16,8 @@ This endpoint allows you to get all offers.
 Api Token
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="payout_models" type="string" required=false %}
-Filter offers payout_model. eg: CPI,CPA
+{% api-method-parameter name="payout\_models" type="string" required=false %}
+Filter offers payout\_model. eg: CPI,CPA
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="page" type="number" required=false %}
@@ -193,6 +193,7 @@ Offers successfully retrieved.
 |  | payout\_type | String | Payout type of this offer, Enum\(Fixed, Dynamic\). |
 |  | payout | String | Payout of this offer, Only display on payout\_type equal to Fixed. |
 |  | preview\_url | String | Preview url of this offer. |
+|  | conversion\_flow | String | Conversion flow of this offer. |
 |  | is\_adult | Boolean | TRUE if this offer contains adult. |
 |  | allow\_incentive | Boolean | TRUE if this offer is allowed in incentive mode. |
 |  | rating | Float | Rating of the offer, Range: 0-5 |
@@ -211,14 +212,14 @@ Offers successfully retrieved.
 | app | min\_os\_version | String | Min os version of this offer's app. |
 | app | size | String | Size of this offer's app. |
 
-#### Response\_Target\_Country
+### Response\_Target\_Country
 
 | Section | Parameters | Type | Description |
 | --- | --- | --- |
 |  | allow | Array\(String\) | Allow countries ISO code.If allow is equal to null, It does allow any country. |
 |  | deny | Array\(String\) | Deny countries ISO code. If deny is equal to null, it does not deny any country. Deny countries only display on allow equal to null. |
 
-#### Response\_Target\_Carrier
+### Response\_Target\_Carrier
 
 | Section | Parameters | Type | Description |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -229,12 +230,10 @@ Offers successfully retrieved.
 | deny | carrier | String | Deny carrier's name. |
 | deny | carrier\_alias | Array\(String\) | Deny carrier's alias. |
 
-#### Response\_Target\_Device
+### Response\_Target\_Device
 
 | Section | Parameters | Type | Description |
 | --- | --- | --- |
 |  | allow | Array\(String\) | Allow devices.Enum\(Android Phone, Android Tablet, iPhone, iPad, Mac, PC, BlackBerry Phone, Blackberry Tablet, Windows Phone, Symbian, Feature Phone, Other\) |
 |  | deny | Array\(String\) | Deny devices.Enum\(Android Phone, Android Tablet, iPhone, iPad, Mac, PC, BlackBerry Phone, Blackberry Tablet, Windows Phone, Symbian, Feature Phone, Other\) |
-
-
 
