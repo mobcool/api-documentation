@@ -165,6 +165,6 @@ Cake successfully retrieved.
 | Section | Parameters | Type | Description |
 | --- | --- | --- | --- |
 | allow | country | String | Carrier's country. |
-|  | carrier | String | Carrier's name. |
-|  | carrier\_alias | StringArray | Carrier's alias. |
+| allow | carrier | String | Carrier's name. |
+| allow | carrier\_alias | StringArray | Carrier's alias. |
 
