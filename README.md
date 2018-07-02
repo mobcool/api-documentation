@@ -42,7 +42,7 @@ Offers successfully retrieved.
     {
       "id": 1026,
       "name": "LUCKY NUMBERS SERVICE-TH-DTAC",
-      "tracking_url": "http://c0c.xyz/rest/ck/o/1/1026?click_id={click_id}&sub_id={YOUR_PUBLISHER_ID}&s1=1000060271&s5={source}",
+      "tracking_url": "http://c0c.xyz/rest/ck/o/1/1026?click_id={click_id}&sub_id={publisher_id}&sc={source}",
       "payout_model": "CPA",
       "payout_type": "Fixed",
       "payout": "0.3200",
@@ -80,7 +80,7 @@ Offers successfully retrieved.
     {
       "id": 1027,
       "name": "Unlimited Games-CM-Orange",
-      "tracking_url": "http://c0c.xyz/rest/ck/o/1/1027?click_id={click_id}&sub_id={YOUR_PUBLISHER_ID}&s1=1000060271&s5={source}",
+      "tracking_url": "http://c0c.xyz/rest/ck/o/1/1027?click_id={click_id}&sub_id={publisher_id}&sc={source}",
       "payout_model": "CPA",
       "payout_type": "Fixed",
       "payout": "0.1200",
@@ -120,7 +120,7 @@ Offers successfully retrieved.
     {
       "id": 5497,
       "name": "Cooking Craze - A Fast & Fun Restaurant Chef Game",
-      "tracking_url": "http://c0c.xyz/rest/ck/o/1/5497?click_id={click_id}&sub_id={publisher_id}.{traffic_id}&sc={source}",
+      "tracking_url": "http://c0c.xyz/rest/ck/o/1/5497?click_id={click_id}&sub_id={publisher_id}&sc={source}",
       "payout_model": "CPI",
       "payout_type": "Fixed",
       "payout": "0.4100",
