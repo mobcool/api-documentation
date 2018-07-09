@@ -17,15 +17,18 @@ Api Token
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="payout\_models" type="string" required=false %}
-Filter offers payout\_model. eg: CPI,CPA
+Filter offers payout\_model. eg: CPI,CPA.   
+Default: All
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="page" type="number" required=false %}
-Page
+Page  
+Default: 1
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="limit" type="number" required=false %}
-Limit
+Limit  
+Default: 15
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
