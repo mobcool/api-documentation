@@ -26,6 +26,11 @@ Filter offers countries. eg: US,TH.
 Default: All
 {% endapi-method-parameter %}
 
+{% api-method-parameter name="min_payout" type="float" required=false %}
+Filter offers countries. eg: 0.1.   
+Default: 0
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="page" type="number" required=false %}
 Page  
 Default: 1
