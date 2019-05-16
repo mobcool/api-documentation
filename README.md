@@ -27,7 +27,7 @@ Default: All
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="min_payout" type="float" required=false %}
-Filter offers countries. eg: 0.1.   
+Filter offers min payout. eg: 0.1.   
 Default: 0
 {% endapi-method-parameter %}
 
