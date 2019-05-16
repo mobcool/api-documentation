@@ -21,6 +21,11 @@ Filter offers payout\_model. eg: CPI,CPA.
 Default: All
 {% endapi-method-parameter %}
 
+{% api-method-parameter name="countries" type="string" required=false %}
+Filter offers countries. eg: US,TH.   
+Default: All
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="page" type="number" required=false %}
 Page  
 Default: 1
