@@ -31,6 +31,11 @@ Filter offers min payout. eg: 0.1.
 Default: 0
 {% endapi-method-parameter %}
 
+{% api-method-parameter name="deny_smartlink" type="boolean" required=false %}
+Deny smartlink offers. eg: true.   
+Default: false
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="page" type="number" required=false %}
 Page  
 Default: 1
