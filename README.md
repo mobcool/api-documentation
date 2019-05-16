@@ -16,6 +16,11 @@ This endpoint allows you to get all offers.
 Api Token
 {% endapi-method-parameter %}
 
+{% api-method-parameter name="offer_ids" type="integer" required=false %}
+Filter offers by offer ids. eg: 12345,54321,67890.   
+Default: All
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="payout\_models" type="string" required=false %}
 Filter offers payout\_model. eg: CPI,CPA.   
 Default: All
