@@ -1,6 +1,6 @@
 # Get offers
 
-{% api-method method="get" host="http://{api\_domain}" path="/api/gateway/offers" %}
+{% api-method method="get" host="{api\_domain}" path="/api/gateway/offers" %}
 {% api-method-summary %}
 Get Offers
 {% endapi-method-summary %}
