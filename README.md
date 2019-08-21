@@ -194,7 +194,7 @@ Offers successfully retrieved.
       "current_page": 1,
       "total_pages": 3,
       "links": {
-        "next": "http://{api_domain}/api/gateway/offers?limit=100&token=xxx&page=2"
+        "next": "{api_domain}/api/gateway/offers?limit=100&token=xxx&page=2"
       }
     }
   }
